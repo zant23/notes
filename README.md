@@ -17,12 +17,13 @@ Edit the path to your MongoDB in the [configuration.ts](src/config/configuration
 Afterwards you can run the following commmands
 
 ```bash
-# development
-$ npm run start
 
-# watch mode
+# Development
 $ npm run start:dev
 
-# production mode
+# production
 $ npm run start:prod
-```
+``` 
+
+While running the App locally you can open the following url to the Swagger Documentation:
+http://localhost:8080/api
